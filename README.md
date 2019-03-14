@@ -1,5 +1,5 @@
 # Lantern
-[![pub package](https://img.shields.io/pub/v/lamp.svg)](https://pub.dartlang.org/packages/lantern)
+[![pub package](https://img.shields.io/pub/v/lamp.svg)](https://pub.dartlang.org/packages/flutter_lantern)
 A Flutter plugin to access the device's lantern/torch on Android and iOS.
 
 ## Usage
