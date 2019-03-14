@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 
 class Lantern {
-  static const MethodChannel _channel = const MethodChannel('flutter_lantern');
+  static const MethodChannel _channel = const MethodChannel('github.com/elratonmaton/flutter_lantern');
   /*static Future<bool> get hasLamp async {
     final bool haslamp = await _channel.invokeMethod('hasLamp');
     return haslamp;
