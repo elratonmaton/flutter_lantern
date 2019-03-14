@@ -1,8 +1,8 @@
 name: flutter_lantern
 description: A new flutter plugin project.
 version: 0.0.1
-author:
-homepage:
+author: Josimar Mamani <elratonmaton@gmail.com>
+homepage: https://github.com/elratonmaton/flutter_lantern
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
