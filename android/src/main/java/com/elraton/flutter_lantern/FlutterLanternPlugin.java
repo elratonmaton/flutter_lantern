@@ -24,7 +24,7 @@ public class FlutterLanternPlugin implements MethodCallHandler {
   }
 
   public static void registerWith(Registrar registrar) {
-    final MethodChannel channel = new MethodChannel(registrar.messenger(), "flutter_lantern");
+    final MethodChannel channel = new MethodChannel(registrar.messenger(), "github.com/elratonmaton/flutter_lantern");
     channel.setMethodCallHandler(new FlutterLanternPlugin(registrar));
   }
 

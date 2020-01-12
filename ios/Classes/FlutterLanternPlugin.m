@@ -4,7 +4,7 @@
 @implementation FlutterLanternPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"flutter_lantern"
+      methodChannelWithName:@"github.com/elratonmaton/flutter_lantern"
             binaryMessenger:[registrar messenger]];
   FlutterLanternPlugin* instance = [[FlutterLanternPlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];
